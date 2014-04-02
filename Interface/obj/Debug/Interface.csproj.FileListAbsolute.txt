@@ -1,0 +1,7 @@
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\bin\Debug\Interface.dll
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\bin\Debug\Interface.pdb
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\obj\Debug\Interface.dll
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\obj\Debug\Interface.pdb
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\bin\Debug\Entity.dll
+E:\OUTSOURCE\Rongbay\RongbayApplication\Interface\bin\Debug\Entity.pdb

@@ -1,0 +1,7 @@
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\bin\Debug\Dapper.dll
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\bin\Debug\Dapper.pdb
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\bin\Debug\Enyim.Caching.dll
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\bin\Debug\Enyim.Caching.xml
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\obj\Debug\Dapper.csprojResolveAssemblyReference.cache
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\obj\Debug\Dapper.dll
+E:\Company\Seta\SourceCode\GitSyspro2\Dev\V2\SYSPROCRM\3Party\Dapper\obj\Debug\Dapper.pdb
