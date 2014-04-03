@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Admin.Layout.Admin" %>
+
+<%@ Register Src="../UC/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc1" %>
+
+<%@ Register Src="../UC/UCTopRight.ascx" TagName="UCTopRight" TagPrefix="uc2" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>RAO VẶT</title>
+
+    <webopt:BundleReference ID="BundleReference1" runat="server" Path="~/Layout/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">HỆ THỐNG QUẢN TRỊ</a>
+                </div>
+                <!-- /.navbar-header -->
+
+                <uc2:UCTopRight ID="UCTopRight1" runat="server" />
+                <!-- /.navbar-top-links -->
+            </nav>
+            <!-- /.navbar-static-top -->
+
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <uc1:LeftMenu ID="LeftMenu1" runat="server" />
+                    <!-- /#side-menu -->
+                </div>
+                <!-- /.sidebar-collapse -->
+            </nav>
+            <!-- /.navbar-static-side -->
+
+            <div id="page-wrapper">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+            <%: Scripts.Render("~/layout/admin") %>
+        </asp:PlaceHolder>
+    </form>
+</body>
+</html>
