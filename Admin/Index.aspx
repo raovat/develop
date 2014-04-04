@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layout/Admin.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Admin.Index" %>
 
+<%@ Register Namespace="LibCore.Helper" Assembly="LibCore" TagPrefix="cc" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -458,4 +459,15 @@
         <!-- /.col-lg-4 -->
     </div>
     <!-- /.row -->
+    <asp:ScriptManager ID="scriptMN" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="uplTest" runat="server">
+        <ContentTemplate>
+            <asp:GridView ID="grvtest" runat="server"></asp:GridView>
+            <cc:Bjzj_2sGroup_Pager ID="pager1" runat="server" OnCommand="pager1_Command"></cc:Bjzj_2sGroup_Pager>
+        </ContentTemplate>
+        <Triggers>
+            <asp:AsyncPostBackTrigger ControlID="pager1"  EventName="Command"  />
+        </Triggers>
+    </asp:UpdatePanel>
+
 </asp:Content>

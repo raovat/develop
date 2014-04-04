@@ -130,21 +130,14 @@
     <Compile Include="Data\ObjectDataReader.cs" />
     <Compile Include="Data\QueryResult.cs" />
     <Compile Include="Data\QueryString.cs" />
-    <Compile Include="Data\Utility.cs" />
+    <Compile Include="Helper\Utility.cs" />
     <Compile Include="EF\SingletonIpl.cs" />
     <Compile Include="EF\Validation\UrlAttribute.cs" />
     <Compile Include="Helper\ApplicationHelper.cs" />
     <Compile Include="Helper\Attributes\ADOTableAttribute.cs" />
     <Compile Include="Helper\Cache\CacheHelper.cs" />
-    <Compile Include="Helper\Enum\AccountRating.cs" />
-    <Compile Include="Helper\Enum\AccountStatus.cs" />
-    <Compile Include="Helper\Enum\CloneRecordTo.cs" />
     <Compile Include="Helper\Enum\Constants.cs" />
-    <Compile Include="Helper\Enum\Constants.StoreProcedure.cs" />
     <Compile Include="Helper\Enum\EnumConvert.cs" />
-    <Compile Include="Helper\Enum\PickListTypeEnum.cs" />
-    <Compile Include="Helper\Enum\QueryOperatorEnum.cs" />
-    <Compile Include="Helper\Enum\RepeatType.cs" />
     <Compile Include="Helper\Extensions\DateTimeExtension.cs" />
     <Compile Include="Helper\Extensions\EnumerableExtensions.cs" />
     <Compile Include="Helper\Extensions\EnumExtensions.cs" />
@@ -169,8 +162,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Helper\ObjectCopier.cs" />
-    <Compile Include="Helper\Objects\DynamicExtensions.cs" />
-    <Compile Include="Helper\Objects\InterfaceObjectFactory.cs" />
     <Compile Include="Helper\PropertyString.cs" />
     <Compile Include="Helper\ResourceString.cs" />
     <Compile Include="Helper\RestartApplication.cs" />

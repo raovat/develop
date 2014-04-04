@@ -10,5 +10,8 @@ namespace Entity
     {
         public int ID { get; set; }
         public string CateName { get; set; }
+        //Paging
+        public int row { get; set; }
+        public int row_count { get; set; }
     }
 }

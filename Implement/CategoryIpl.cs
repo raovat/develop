@@ -71,10 +71,13 @@ namespace Implement
         /// Gets the list category.
         /// </summary>
         /// <returns></returns>
-        public IList<Category> GetListCategory()
+        public IList<Category> GetListCategory(int startindex, int maxrecords)
         {
             var data = unitOfWork
-                .Procedure<Category>(unitOfWork.RunProcedureSchema("spCategory_GetList")).ToList();
+                .Procedure<Category>(unitOfWork.RunProcedureSchema("spCategory_GetList"), new {
+                    Startindex = startindex,
+                    Maxrecords = maxrecords
+                }).ToList();
             return data;
         }
 

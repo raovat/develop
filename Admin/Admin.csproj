@@ -260,6 +260,7 @@
     <Content Include="Layout\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Layout\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Layout\Admin.Master" />
+    <Content Include="appSettings.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -410,6 +411,28 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3Party\Dapper\Dapper.csproj">
+      <Project>{eb0b7c3c-111d-4135-a7dd-c5bdaf62b64e}</Project>
+      <Name>Dapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{277f122c-da6e-4267-9a59-b88cfd1be5ee}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Implement\Implement.csproj">
+      <Project>{b72e7fce-02c0-41d6-8c11-b2794d28b84c}</Project>
+      <Name>Implement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{2299a931-b5fb-47eb-b411-4b624cbc2641}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibCore\LibCore.csproj">
+      <Project>{4f45084f-2a97-4859-b28e-5dff99f393ac}</Project>
+      <Name>LibCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
