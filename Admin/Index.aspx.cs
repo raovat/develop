@@ -28,6 +28,7 @@ namespace Admin
             grvtest.DataSource = lst.ToList();
             grvtest.DataBind();
         }
+        //Phan trang
         protected void pager1_Command(object sender, CommandEventArgs e)
         {
             int currnetPageIndx = Convert.ToInt32(e.CommandArgument);
