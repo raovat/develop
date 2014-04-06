@@ -10,6 +10,6 @@ namespace Interface
 {
     public interface ICategory
     {
-        int Insert(Category cateInfo);
+        int Insert(Category cateInfo);//insert
     }
 }
