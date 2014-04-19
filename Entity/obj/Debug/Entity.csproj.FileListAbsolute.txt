@@ -1,5 +1,0 @@
-E:\OUTSOURCE\Rongbay\RongbayApplication\Entity\bin\Debug\Entity.dll
-E:\OUTSOURCE\Rongbay\RongbayApplication\Entity\bin\Debug\Entity.pdb
-E:\OUTSOURCE\Rongbay\RongbayApplication\Entity\obj\Debug\Entity.dll
-E:\OUTSOURCE\Rongbay\RongbayApplication\Entity\obj\Debug\Entity.pdb
-E:\OUTSOURCE\Rongbay\RongbayApplication\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
