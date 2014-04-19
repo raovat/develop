@@ -12,10 +12,13 @@
         <!-- /input-group -->
     </li>--%>
     <li>
-        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+        <a href="#"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
     </li>
     <li>
-        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Charts<span class="fa arrow"></span></a>
+        <a href="/Pages/Category.aspx"><i class="fa fa-th-list fa-fw"></i> Danh mục</a>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Tin tour<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
                 <a href="flot.html">Flot Charts</a>
@@ -27,72 +30,56 @@
         <!-- /.nav-second-level -->
     </li>
     <li>
-        <a href="tables.html"><i class="fa fa-table fa-fw"></i>Tables</a>
-    </li>
-    <li>
-        <a href="forms.html"><i class="fa fa-edit fa-fw"></i>Forms</a>
-    </li>
-    <li>
-        <a href="#"><i class="fa fa-wrench fa-fw"></i>UI Elements<span class="fa arrow"></span></a>
+        <a href="#"><i class="fa fa-list-alt fa-fw"></i> Tin rao vặt<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
-                <a href="panels-wells.html">Panels and Wells</a>
+                <a href="flot.html">Flot Charts</a>
             </li>
             <li>
-                <a href="buttons.html">Buttons</a>
-            </li>
-            <li>
-                <a href="notifications.html">Notifications</a>
-            </li>
-            <li>
-                <a href="typography.html">Typography</a>
-            </li>
-            <li>
-                <a href="grid.html">Grid</a>
+                <a href="morris.html">Morris.js Charts</a>
             </li>
         </ul>
         <!-- /.nav-second-level -->
     </li>
     <li>
-        <a href="#"><i class="fa fa-sitemap fa-fw"></i>Multi-Level Dropdown<span class="fa arrow"></span></a>
+        <a href="#"><i class="fa fa-film fa-fw"></i> Quảng Cáo</a>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-th-large fa-fw"></i> Banner</a>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-list-alt fa-fw"></i> Hợp đồng</a>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-flag fa-fw"></i> Tỉnh/Thành phố<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
-                <a href="#">Second Level Item</a>
+                <a href="#">Quản lý Vùng miền</a>
             </li>
             <li>
-                <a href="#">Second Level Item</a>
+                <a href="#">Quốc gia</a>
             </li>
             <li>
-                <a href="#">Third Level <span class="fa arrow"></span></a>
-                <ul class="nav nav-third-level">
-                    <li>
-                        <a href="#">Third Level Item</a>
-                    </li>
-                    <li>
-                        <a href="#">Third Level Item</a>
-                    </li>
-                    <li>
-                        <a href="#">Third Level Item</a>
-                    </li>
-                    <li>
-                        <a href="#">Third Level Item</a>
-                    </li>
-                </ul>
-                <!-- /.nav-third-level -->
+                <a href="#">Tỉnh/Thành phố</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-user fa-fw"></i> Thành viên</a>
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-cog fa-fw"></i> Người dùng<span class="fa arrow"></span></a>
+        <ul class="nav nav-second-level">
+            <li>
+                <a href="#">Danh sách người dùng</a>
+            </li>
+            <li>
+                <a href="#">Phân quyền</a>
             </li>
         </ul>
         <!-- /.nav-second-level -->
     </li>
     <li>
-        <a href="#"><i class="fa fa-files-o fa-fw"></i>Sample Pages<span class="fa arrow"></span></a>
-        <ul class="nav nav-second-level">
-            <li>
-                <a href="blank.html">Blank Page</a>
-            </li>
-            <li>
-                <a href="login.html">Login Page</a>
-            </li>
-        </ul>
-        <!-- /.nav-second-level -->
+        <a href="#"><i class="fa fa-envelope fa-fw"></i> Comment</a>
     </li>
 </ul>

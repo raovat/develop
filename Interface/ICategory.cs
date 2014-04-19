@@ -11,5 +11,8 @@ namespace Interface
     public interface ICategory
     {
         int Insert(Category cateInfo);//insert
+        IList<Category> GetListCategory(int startindex, int maxrecords);
+        IList<Category> GetListCategory(string where,int startindex, int maxrecords);
+        Category GetDetail(int Id);
     }
 }

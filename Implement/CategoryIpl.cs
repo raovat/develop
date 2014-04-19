@@ -81,6 +81,28 @@ namespace Implement
             return data;
         }
 
+        public IList<Category> GetListCategory(string where, int startindex, int maxrecords) 
+        {
+            var data = unitOfWork
+           .Procedure<Category>(unitOfWork.RunProcedureSchema("spCategory_GetListPageDynamic"), new
+           {
+               WhereCondition = where,
+               Startindex = startindex,
+               Maxrecords = maxrecords
+           }).ToList();
+            return data;
+        }
+
+        public IList<Category> GetListCategory(string where)
+        {
+            var data = unitOfWork
+           .Procedure<Category>(unitOfWork.RunProcedureSchema("spCategory_GetListDynamic"), new
+           {
+               WhereCondition = where
+           }).ToList();
+            return data;
+        }
+
         /// <summary>
         /// Gets the detail.
         /// </summary>
